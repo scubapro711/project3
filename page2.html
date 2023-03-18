@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gym Questionnaire - Page 3</h1>
+    <form action="submit.html">
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Question</th>
+          <th>Answer</th>
+        </tr>
+        <tr>
+          <td>Exercise Experience</td>
+          <td>Have you worked out at a gym before?</td>
+          <td>
+            <input type="radio" id="yes" name="gym_experience" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="gym_experience" value="no">
+            <label for="no">No</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>If yes, how would you rate your previous experience at the gym?</td>
+          <td>
+            <select name="previous_experience">
+              <option value="excellent">Excellent</option>
+              <option value="good">Good</option>
+              <option value="fair">Fair</option>
+              <option value="poor">Poor</option>
+              <option value="never_worked_out_at_gym">Never worked out at a gym before</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Do you have any experience with weightlifting or strength training?</td>
+          <td>
+            <input type="radio" id="yes" name="strength_training_experience" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="strength_training_experience" value="no">
+            <label for="no">No</label>
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
